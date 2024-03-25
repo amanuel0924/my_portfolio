@@ -27,39 +27,39 @@ const AboutMe = () => {
             <div className=" pb-5">
               <p className=" text-2xl font-bold  inline ">My Services</p>
             </div>
-            <div class="w-full draggable text-gray-900">
-              <div class="container flex flex-col items-center gap-16 mx-auto my-10">
-                <div class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main drop-shadow-lg">
+            <div className="w-full draggable text-gray-900">
+              <div className="container flex flex-col items-center gap-16 mx-auto my-10">
+                <div className="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+                  <div className="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main drop-shadow-lg">
                     <span>
                       <FaDrawPolygon size={35} className=" text-blue-800" />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p className="text-2xl font-extrabold text-dark-grey-900">
                       Web Designer
                     </p>
-                    <p class="text-base leading-7 text-dark-grey-600">
+                    <p className="text-base leading-7 text-dark-grey-600">
                       Figma, Adobe XD, Sketch
                     </p>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main drop-shadow-lg">
+                  <div className="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main drop-shadow-lg">
                     <span>
                       <FaCode size={35} className=" text-blue-800" />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p className="text-2xl font-extrabold text-dark-grey-900">
                       Frontend Developer
                     </p>
-                    <p class="text-base leading-7 text-dark-grey-600">
+                    <p className="text-base leading-7 text-dark-grey-600">
                       HTML, CSS, JavaScript, React,TypeScript
                     </p>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main drop-shadow-lg">
+                  <div className="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main drop-shadow-lg">
                     <span>
                       <FaRegFileCode size={35} className=" text-blue-800" />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p className="text-2xl font-extrabold text-dark-grey-900">
                       Backend Developer
                     </p>
-                    <p class="text-base leading-7 text-dark-grey-600">
+                    <p className="text-base leading-7 text-dark-grey-600">
                       Node.js, Express, MongoDB, SQL
                     </p>
                   </div>
