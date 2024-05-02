@@ -1,7 +1,7 @@
 import React from "react"
 import jewelry from "./../asset/portfolio/jewlery.png"
 import procafe from "./../asset/portfolio/procafe.png"
-import car from "./../asset/portfolio/carent.png"
+import fylo from "./../asset/portfolio/fylo2.png"
 
 const Portfolio = () => {
   const picArray = [
@@ -21,10 +21,10 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: car,
-      title: "Car Rental",
-      git: "https://github.com/amanuel0924/car_rental",
-      demo: "https://car-rental-one-dusky.vercel.app/",
+      src: fylo,
+      title: "Multi file uploader",
+      git: "https://github.com/amanuel0924/multiFileUploader",
+      demo: "https://multi-file-uploader-eta.vercel.app/",
     },
   ]
   return (
