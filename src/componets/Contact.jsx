@@ -14,17 +14,11 @@ const Contact = () => {
 
   return (
     <>
-      <section
-        className=" dark:bg-gradient-to-b from-black to-gray-800 w-full "
-        name="contact"
-      >
+      <section className="w-full " name="contact">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div className="mb-4">
             <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
-              <p className="text-base font-semibold uppercase tracking-wide text-blue-600 dark:text-blue-200">
-                Contact
-              </p>
-              <h2 className="font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
+              <h2 className="font-heading mb-4 font-bold tracking-tight text-primary dark:text-secondary text-3xl sm:text-4xl">
                 Get in Touch
               </h2>
             </div>
@@ -39,7 +33,7 @@ const Contact = () => {
                 </p>
                 <ul className="mb-6 md:mb-0">
                   <li className="flex">
-                    <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                    <div className="flex h-10 w-10 items-center justify-center rounde bg-primary dark:bg-secondary text-gray-50">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -66,7 +60,7 @@ const Contact = () => {
                     </div>
                   </li>
                   <li className="flex">
-                    <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                    <div className="flex h-10 w-10 items-center justify-center rounded dark:bg-secondary bg-primary text-gray-50">
                       <IoCallSharp size={20} />
                     </div>
                     <div className="ml-4 mb-4">
@@ -138,7 +132,7 @@ const Contact = () => {
                         cols="30"
                         rows="5"
                         placeholder="Write your message..."
-                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                        className="mb-2 w-full rounded-md  border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
                         value={info.message}
                         onChange={userDataChangeHandler}
                       ></textarea>
@@ -147,7 +141,7 @@ const Contact = () => {
                   <div className="text-center">
                     <button
                       onClick={onbutClick}
-                      className="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0"
+                      className="w-full bg-primary dark:bg-secondary text-white px-6 py-3 font-xl rounded-md sm:mb-0"
                     >
                       Send Message
                     </button>

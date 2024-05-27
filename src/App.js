@@ -1,30 +1,33 @@
-import Home from "./componets/Home"
-import Experians from "./componets/Experians"
-import Hero from "./componets/Hero"
-import AboutMe from "./componets/AboutMe"
-import Portfolio from "./componets/Portfolio"
 import Contact from "./componets/Contact"
+import Projets from "./componets/Projects"
 import LeftIcons from "./componets/LeftIcons"
 import { useState } from "react"
+import Nav from "./componets/Nav"
+import Home from "./componets/Home2"
+import About2 from "./componets/About2"
+import Myservice from "./componets/Myservice"
+import LogoList from "./componets/LogoList"
 
+import "./App.css"
 function App() {
-  // add a dark togler state to send to the Hero component
-  const [dark, setDark] = useState("dark")
+  const [dark, setDark] = useState(false)
   const handleDark = () => {
-    setDark(dark === "dark" ? "" : "dark")
+    setDark(!dark)
+    console.log(dark)
   }
 
   return (
-    <div className={dark}>
-      <Hero dark={dark} handleDark={handleDark} />
-      <Home />
-      <LeftIcons />
-      <AboutMe />
-      <Portfolio />
-      <Experians />
-      <Contact />
-
-      {/* <Footer /> */}
+    <div className={` ${dark ? "dark" : ""}`}>
+      <div className="dark:bg-gradient-to-b from-black to-gray-800 ">
+        <Nav dark={dark} handleDark={handleDark} />
+        <Home />
+        <About2 />
+        <Myservice />
+        <LogoList />
+        <Projets />
+        <LeftIcons />
+        <Contact />
+      </div>
     </div>
   )
 }

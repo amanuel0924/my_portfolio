@@ -15,12 +15,14 @@ const AboutMe = () => {
         </div>
         <div>
           <p className=" text-xl mt-15">
-            I am Amanuel Tegegne, a software engineering graduate from Wollo
-            University. Specializing in front-end development, I seamlessly
-            blend aesthetics with functionality. While my primary focus is on
-            creating captivating user interfaces, I possess a solid
-            understanding of back-end development and UX/UI principles, ensuring
-            holistic and well-rounded expertise.
+            I am Amanuel Tegegne, a dedicated Full Stack Developer with a strong
+            foundation in software engineering from Wollo University. My
+            expertise lies in the MERN stack (MongoDB, Express.js, React, and
+            Node.js), and I have experience working with ORM tools for
+            PostgreSQL and MySQL. I specialize in both front-end and back-end
+            development, creating seamless web applications.Additionally, I
+            possess a solid understanding of UX/UI principles, which allows me
+            to enhance the overall user experience in my projects.
           </p>
           <br />
           <div>
